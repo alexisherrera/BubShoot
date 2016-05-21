@@ -9,6 +9,3 @@ Luka: 70
 Yaleny: 190
 Vivi: 130
 Marcy: 30
-: 240
-leaf: 330
-: 180
