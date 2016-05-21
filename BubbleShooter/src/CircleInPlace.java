@@ -7,8 +7,6 @@ public class CircleInPlace extends GameObject{
 
 	private Color color;
 	public static final int SIZE = 20;
-	//public static final int INIT_POS_X = 170;
-	//public static final int INIT_POS_Y = 170;
 	
 	//constructor
 	public CircleInPlace(int courtWidth, int courtHeight, Color color, 
