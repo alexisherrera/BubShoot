@@ -1,0 +1,14 @@
+Ali: 340
+Max: 300
+Mark: 200
+Celeste: 50
+Maria: 140
+Marcos: 250
+Silvia: 120
+Luka: 70
+Yaleny: 190
+Vivi: 130
+Marcy: 30
+: 240
+leaf: 330
+: 180

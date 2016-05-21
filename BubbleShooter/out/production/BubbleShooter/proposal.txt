@@ -1,0 +1,117 @@
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+CIS 120 Game Project Proposal
+PennKey: _halexis______
+Name of TA you consulted with: ____Vivek A. Raj______
+=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+
+===============
+=: Your Game := Bubbleshooter
+===============
+
+- What game are you planning to implement? If it is a game of your own design,
+  or not especially well-known, provide a 2-3 sentence description of the game.
+  I am planning to implement the famous game bubbleshooter. In the game you
+  just shoot little bubbles to pop other bubbles of the same color. 
+
+- What classes and interfaces do you plan to create? How will the different
+  components of your game (the model, the GUI, etc.) interact?
+ 
+  I plan on making a class for the bubbles that I would like to hit. I plan on 
+  making a class for the shooter. I also plan on making a class for direction
+  in which the ball is moving. 
+
+- What do you think will be the most challenging thing to implement?
+  I think the hardest part will be making the ball shoot.
+  
+  The most challenging part of this assignment is going to be to implement the
+  2-D array and all of the movements within it. There are going to be a lot of
+  edge cases that I will need to consider, so it will just be tedious.
+
+====================
+=: Core Concept 1 :=
+====================
+
+Concept 1: ___2-D arrays____
+
+- What specific feature of your game will be implemented using this concept?
+  I will be modeling the grid in which all of the bubbles will be stacked upon
+  each other with a 2-D array. 
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+  
+  It makes sense to use a 2-D array because the balls are all lined up and in 
+  a grid like form. It will be the best way to map out all of the bubbles I 
+  believe. This is nontrivial because there are many edgecases that I need to
+  account for when using the 2-d array to model the area where all the bubbles 
+  will be staying. Also there will also be a lot of moving within the 2d array
+  of the balls
+
+====================
+=: Core Concept 2 :=
+====================
+
+Concept 2: ___I/O____
+
+- What specific feature of your game will be implemented using this concept?
+  At the end of each run, my game will show the high scores played with the game.
+  I will make it so that when you first run the game it asks for a username.
+  After the username is given, I will keep track of how many points are made 
+  during the game. At the very end of the game I will display all of the scores
+  recorded including the one just made, in order of course. 
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+  
+  It makes sense to implement this feature because naturally people want to know
+  how well or how badly they did on a game. Also, this is no trivial because
+  i am going to need to keep track of the usernames of the people playing and 
+  then save them in the document I will be using I/o because it is the most 
+  intuitive and only way I can think of adding this feature to my game.
+
+
+====================
+=: Core Concept 3 :=
+====================
+
+Concept 3: ___J-Unit testing____
+
+- What specific feature of your game will be implemented using this concept?
+  
+  I will be testing that my grid functions properly when balls are popped. This
+  is important because that is the way in which one gets points in this game. 
+  Also I will be checking wheather new rows added are added correctly and when
+  balls are shot and not popped if they return the correct location in the 
+  double array. 
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+
+  This is non-trivial because the ways in which the balls are put in the 2-d
+  array are complex and the way in which they change and react to certain 
+  things. For example, when balls pop, I would like to test that they are 
+  popping in the correct location of the 2-D array. Similarly, I would like to 
+  test that the array updates the new rows of balls when one loses.
+
+====================
+=: Core Concept 4 :=
+====================
+
+Concept 4: ___Complex search of game state____
+
+- What specific feature of your game will be implemented using this concept?
+  When the balls are shot the program will need to determine whether the 
+  balls around should either pop or not. For simplicity, I will be searching 
+  for the any three balls near the shooter. If they are the same color then they
+  will pop. Again, for simplicity I will not be taking into account diagonals.
+  To do this I will be using if statements to check whether balls in the 2d 
+  array are null and if they are the same color!
+  
+
+
+- Why does it make sense to implement this feature with this concept? Justify
+  why this is a non-trivial application of the concept in question.
+  
+  It makes sense to do this using it all within the 2d array because that is 
+  the way in which my game is set up to hold all of the balls. Without this 
+  then there would be no game because no balls would pop.
