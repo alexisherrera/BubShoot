@@ -9,14 +9,3 @@ Luka: 70
 Yaleny: 190
 Vivi: 130
 Marcy: 30
-null: 0
-null: 0
-null: 0
-null: 30
-null: 0
-null: 0
-null: 0
-null: 0
-null: 0
-null: 0
-null: 0
