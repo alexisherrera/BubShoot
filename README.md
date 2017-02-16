@@ -1,2 +1,19 @@
 # BubShoot
 BubbleShooter game that I developed in Java using the Swing library! 
+
+## Getting Started
+
+To get this running locally I recomend downloading the entire repo and saving it into a folder. Once saved click on the index.html file and go from there —— all in the browser! 
+
+### Clone repo
+
+If you have git set up on your machine simply type the following line into your command line:
+
+```
+$ git clone https://github.com/alexisherrera/BubShoot
+```
+
+## Built With
+
+* Java
+* Swing
